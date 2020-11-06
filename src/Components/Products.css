@@ -1,0 +1,330 @@
+
+h1{
+    font-family: 'PT Serif', serif;
+    font-size: 30px;
+    margin: 20px;
+}
+
+h4{
+        font-size: 20px;
+        font-family: 'PT Serif', serif;
+        text-align: center;
+}
+
+.butter{
+    position: static;
+	width: 250px;
+	height: 250px;
+	left: 0px;
+}
+
+.cheese{
+    position: static;
+	width: 250px;
+	height: 250px;
+	left: 50px;
+}
+
+.ghee{
+    position: static;
+	width: 250px;
+	height: 250px;
+	left: 70px;
+}
+
+.buttername{
+    left: 80px;
+    top: 260px;
+    position: absolute;
+    overflow: visible;
+    width: 57px;
+    font-family: 'PT Serif', serif;
+    white-space: nowrap;
+    text-align: left;
+    font-size: 28px;
+    color: rgba(32,100,152,1);
+    letter-spacing: 0.5px;
+}
+
+.cheesename{
+    left: 100px;
+    top: 260px;
+    position: absolute;
+    overflow: visible;
+    width: 57px;
+    font-family: 'PT Serif', serif;
+    white-space: nowrap;
+    text-align: left;
+    font-size: 28px;
+    color: rgba(32,100,152,1);
+    letter-spacing: 0.5px;
+}
+
+.gheename{
+    left: 120px;
+    top: 260px;
+    position: absolute;
+    overflow: visible;
+    width: 57px;
+    font-family: 'PT Serif', serif;
+    white-space: nowrap;
+    text-align: left;
+    font-size: 28px;
+    color: rgba(32,100,152,1);
+    letter-spacing: 0.5px;
+}
+
+
+.trial{
+    flex: 25%;
+    max-width: 80%;
+    padding: 0 30px;
+}
+
+@media (max-width: 350px){
+    .textedit-1{
+        font-size: 15px;
+        margin: 10%;
+    }
+    .textedit{
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    .butter{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 50px;
+    }
+    
+    .cheese{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 25px;
+    }
+    
+    .ghee{
+        position: static;
+        width: 50px;
+        height: 50px;
+        left: 300px;
+    }
+
+
+
+    .buttername{
+        left: 50px;
+        top: 60px;
+        position: absolute;
+        overflow: visible;
+        width: 57px;
+        font-family: 'PT Serif', serif;
+        white-space: nowrap;
+        text-align: left;
+        font-size: 12px;
+        color: rgba(32,100,152,1);
+        letter-spacing: 0.5px;
+    }
+    
+    .cheesename{
+        left: 25px;
+        top: 60px;
+        position: absolute;
+        overflow: visible;
+        width: 57px;
+        font-family: 'PT Serif', serif;
+        white-space: nowrap;
+        text-align: left;
+        font-size: 12px;
+        color: rgba(32,100,152,1);
+        letter-spacing: 0.5px;
+    }
+    
+    .gheename{
+        left: 10px;
+        top: 60px;
+        position: absolute;
+        overflow: visible;
+        width: 57px;
+        font-family: 'PT Serif', serif;
+        white-space: nowrap;
+        text-align: left;
+        font-size: 12px;
+        color: rgba(32,100,152,1);
+        letter-spacing: 0.5px;
+    }
+
+    .trial{
+        flex: 33%;
+        max-width: 33%;
+        padding: 0 3px;
+    }
+}
+@media (min-width: 350px) and (max-width: 500px){
+
+    .textedit-1{
+        font-size: 15px;
+        margin: 10%;
+    }
+    .textedit{
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    .butter{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 50px;
+    }
+    
+    .cheese{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 25px;
+    }
+    
+    .ghee{
+        position: static;
+        width: 50px;
+        height: 50px;
+        left: 300px;
+    }
+
+
+
+    .buttername{
+        left: 50px;
+        top: 60px;
+        position: absolute;
+        overflow: visible;
+        width: 57px;
+        font-family: 'PT Serif', serif;
+        white-space: nowrap;
+        text-align: left;
+        font-size: 12px;
+        color: rgba(32,100,152,1);
+        letter-spacing: 0.5px;
+    }
+    
+    .cheesename{
+        left: 25px;
+        top: 60px;
+        position: absolute;
+        overflow: visible;
+        width: 57px;
+        font-family: 'PT Serif', serif;
+        white-space: nowrap;
+        text-align: left;
+        font-size: 12px;
+        color: rgba(32,100,152,1);
+        letter-spacing: 0.5px;
+    }
+    
+    .gheename{
+        left: 10px;
+        top: 60px;
+        position: absolute;
+        overflow: visible;
+        width: 57px;
+        font-family: 'PT Serif', serif;
+        white-space: nowrap;
+        text-align: left;
+        font-size: 12px;
+        color: rgba(32,100,152,1);
+        letter-spacing: 0.5px;
+    }
+
+    .trial{
+        flex: 33%;
+        max-width: 33%;
+        padding: 0 3px;
+    }
+}
+
+
+@media (min-width: 500px) and (max-width: 800px){
+
+    hr {
+        width: 20px;
+        margin: 50px;
+        border: 2px solid rgba(92, 177, 233, 0.938);
+        position: static;
+    }
+    
+    .butter{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 50px;
+    }
+    
+    .cheese{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 25px;
+    }
+    
+    .ghee{
+        position: static;
+        width: 100px;
+        height: 100px;
+        left: 300px;
+    }
+
+    .textedit{
+        font-size: 15px;
+        text-align: center;
+    }
+    .textedit-1{
+        font-size: 20px;
+        margin: 20px;
+    }
+
+    .buttername{
+        left: 65px;
+        top: 100px;
+        position: absolute;
+        overflow: visible;
+        width: 57px;
+        font-family: 'PT Serif', serif;
+        white-space: nowrap;
+        text-align: left;
+        font-size: 15px;
+        color: rgba(32,100,152,1);
+        letter-spacing: 0.5px;
+    }
+    
+    .cheesename{
+        left: 50px;
+        top: 100px;
+        position: absolute;
+        overflow: visible;
+        width: 57px;
+        font-family: 'PT Serif', serif;
+        white-space: nowrap;
+        text-align: left;
+        font-size: 15px;
+        color: rgba(32,100,152,1);
+        letter-spacing: 0.5px;
+    }
+    
+    .gheename{
+        left: 50px;
+        top: 100px;
+        position: absolute;
+        overflow: visible;
+        width: 57px;
+        font-family: 'PT Serif', serif;
+        white-space: nowrap;
+        text-align: left;
+        font-size: 15px;
+        color: rgba(32,100,152,1);
+        letter-spacing: 0.5px;
+    }
+
+}
